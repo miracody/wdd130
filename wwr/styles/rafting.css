@@ -78,6 +78,30 @@ article {
     padding: 2rem;
     text-align: center;
 }
+
+.adventures{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.adventures figure {
+    margin: 0;
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.adventures figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
 .socialmedia a{
     text-decoration: none;
 }
@@ -106,4 +130,14 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+footer .social {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .social img{
+    width: 32px;
+    height: auto;
 }
