@@ -135,6 +135,7 @@ h1 {
 footer .social {
     display: flex;
     gap: 1rem;
+    float: right;
 }
 
 footer .social img{
