@@ -25,25 +25,59 @@ header {
 }
 
 h1{
-    font-size: 2rem;
-    font-family: Open, Josefin, sans-serif
+    font-size: 2.5rem;
+    font-family: Open, Josefin, sans-serif;
+    color: #83a7e2;
+    margin: 0;
 }
 
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    font-family: Josefin, sans-serif;
 }
 
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+.navigation li {
+    flex: 1 1 auto;
 }
 
-nav, p, section, article{
-    margin: 16px;
-    padding: 8px;
+.navigation a {
+    display: block;
+    padding: 20px;
+    color: rgb(177, 177, 243);
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
+.navigation a:hover {
+    color: rgb(39, 144, 236);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body{
+    font-family: Open, Josefin, sans-serif;
+}
+
+article {
+    margin: 1em auto;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1em;
+    background-color: #83a7e2;
+    width: min(600px, 100%);
+    font-size: 1.2rem;
+}
+
+.history{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    background-color: #83a7e2;
+    padding: 2rem;
+    text-align: center;
+}
 .socialmedia a{
     text-decoration: none;
 }
