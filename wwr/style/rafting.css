@@ -16,7 +16,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(#071421);
+    color: #071421;
     background-color: lab(89.37% -0.19 -4.49);
 }
 
@@ -27,7 +27,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(#071421);
+    color: #071421;
     margin-bottom: 0.5rem;
 }
 
@@ -42,7 +42,7 @@ header {
     align-items: center;
     padding: 1rem;
     background-color: var(--primary-color);
-    color: var(#091017);
+    color: #091017;
 }
 
 
@@ -53,13 +53,13 @@ header img {
 
 nav li a {
     text-decoration: none;
-    color: var(#091017);
+    color: #091017;
     padding: 0,5rem 1rem;
 }
 
 nav li a:hover,
 nav li a.active {
-    background-color: var(#091017);
+    background-color: #091017;
     color: rgb(19, 13, 13);
     border-radius: 4px;
 }
@@ -146,8 +146,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: var(#091017);
-    color: var(#071421);
+    background-color: #091017;
+    color: #071421;
     margin-top: 2rem;
 }
 
