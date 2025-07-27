@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #83a7e2;
+    --primary-color: #e4ebf6;
     --secondary-color: #eeeeee;
     --accent1-color: hsl(188, 29%, 90%);
-    --accent2-color:#9bcfe0;
+    --accent2-color:#e8f0f2;
 
     --heading-font: "Open Sans", sans-serif;
     --body-font: "josefin", sans-serif
@@ -16,8 +16,8 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--primary-color);
-    background-color: #83a7e2;
+    color: var(#071421);
+    background-color: lab(89.37% -0.19 -4.49);
 }
 
 header, main, footer {
@@ -27,7 +27,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(#071421);
     margin-bottom: 0.5rem;
 }
 
@@ -47,7 +47,7 @@ header {
 
 
 header img {
-    width: 64px;
+    width: 100px;
     height: auto;
 }
 
