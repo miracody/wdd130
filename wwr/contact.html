@@ -3,81 +3,91 @@
 <head> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Learn about the history, purpose, and exciting adventures offered by The Rapids Rafting Plc.">
-  <meta name="author" content="Mirabel">
+  <meta name="description" content="Contact The Rapids Rafting Plc for Adventure inquiries, bookings, and feedback. view team profile and reach out to us using our contact form.">
+  <meta name="author" content="Rapids Rafting">
   <link rel="stylesheet" href="style/rafting.css" />
-  <title>About Us | The Rapids Rafting Plc.</title>
+  <title>Contact Us | The Rapids Rafting Plc.</title>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
 
   <header> 
     <img src="image/wwr-logo.jpg" alt="The Rapids Rafting Plc. Company logo" />
-    <h1>Welcome to The Rapids Adventure</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="trips.html">Trips</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>    
   </header>
   <main>
-    <div class="hero">
-      <img src="image/rafting-hero.jpg" alt="The Rapids Rafting Group Image" />
-      <h1>Enjoy the Experience at The Rapids Adventure</h1>
-      <article>
-        <img src="image/happyclient.jpg" alt="Happy guest celebrating at the river bank" />
-        <p>Our mission is to create unforgettable journeys. We believe that joy and fun bring healing to the mind and soul. This outdoor activity has helped many rediscover happiness!</p>
-      </article>
-    </div>
+    <section class="contact-box">
+      <h2>Reach out to Rapids Rafting</h2>
+      <p>📌Bairro camama, camama bus stop, progress street, block 12, luanda,</p>
+      <p>📞 (+244) 923-041-860</p>
+      <p>📨 mnwanneka@byupathway.edu</p>
 
-   <section class="History">
-    <div>
-      <h2>History</h2>
-      <p>We have covered over six hundred trips, creating amazing memories along the way
-        the Rapids Rafting was founded in 2022 by passionate explorers whon wanted to share their love for river life.</p>
-    </div>    
-    <img src="image/history.jpg" alt="Historic Rapids Moments" />
+      <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d985.3527612682121!2d13.262858050946228!3d-8.93421637295134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f5a16d265bb7%3A0x7f2cec421054e493!2sROMIRA%20GLOBAL%2C%20Loja%20de%20mat%C3%A9ria%20de%20croch%C3%AA.!5e0!3m2!1sen!2sao!4v1753654146871!5m2!1sen!2sao" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+      </div>
+    </section>
+    
+    <section class="team-section">
+      <h2>Meet our Team</h2>
+      <div class="employee-grid">
+        <article class="staff-profile">
+          <img src="image/john.jpeg" alt="John, Booking Manger">
+          <h3>John</h3>
+          <p>Ensure smooth scheduling and guest satisfaction!</p>
+        </article>
+
+        <article class="staff-profile">
+          <img src="image/grace.jpeg" alt="Grace, Adventure Guide">
+          <h3>Grace</h3>
+          <p>Leads safe and exciting river excursion</p>
+        </article>
+
+        <article class="staff-profile">
+          <img src="image/martha.jpeg" alt="Martha, Customer Care Specialist">
+          <p> Available to take all your questions with satisfying responds and smiles!</p>
+        </article>
+      </div>
    </section>
 
-   <section class="rafting">
-    <h2>Adventure Awaits You!</h2>
-    <figure>
-      <img src="image/rafting1.jpg" alt="Rafting where fun lives" />
-      <figcaption>Rafting where fun lives</figcaption>
-    </figure>
-    <figure>
-      <img src="image/rafting2.jpg" alt="Water is fun" />
-      <figcaption>Water is fun</figcaption>
-    </figure>
-    <figure>
-      <img src="image/rafting3.jpg" alt="Rafting life comes alive" />
-      <figcaption>Rafting life comes alive</figcaption>
-    </figure>
-    <figure>
-      <img src="image/rafting4.jpg" alt="Live your memories" />
-      <figcaption>Live your memories</figcaption>
-    </figure>
-    <figure>
-      <img src="image/rafting5.jpg" alt="Never miss a trip" />
-      <figcaption>Never miss a trip</figcaption>
-    </figure>
-   </section> 
+   <section class="form-selection">
+    <h2>Send Us a Message</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <fieldset>
+        <legend>Purpose of Message:</legend>
+        <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
+        <label><input type="radio" name="purpose" value="reservation"> Reservation Questions</label>
+        <label><input type="radio" name="purpose" value="suggestions"> Website Suggestions</label>
+      </fieldset>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <label>
+        <input type="checkbox" name="newsletter">
+        Please subscribe me for monthly newsletter
+      </label>
+
+      <button type="submit">Send Message</button>
+    </form>
+   </section>
   </main>
   <footer>
     <p>©2025, The Rapids Rafting Plc. | Mirabel</p>
-    <div class="socialmedia">
-      <a href="#"><img src="image/facebook.png" alt="Facebook logo"></a>
-      <a href="#"><img src="image/twitter.png" alt="Twitter logo"></a>
-      <a href="#"><img src="image/instagram.png" alt="Instagram logo"></a>
-    </div>
+    <p><a href="#"><img src="image/facebook.png" alt="Facebook logo"></a>
+    
   </footer>
 </body>
 </html>
