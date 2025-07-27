@@ -21,7 +21,7 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -32,17 +32,17 @@ h1, h2 {
 }
 
 nav, p, section, article {
-    margin: 16px;
+    margin: 20px;
     padding: 8px;
 }
 
 header {
     display: grid;
-    grid-template-columns: 125px 1fr 1fr;
+    grid-template-columns: 120px 2fr 1fr;
     align-items: center;
     padding: 1rem;
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(#091017);
 }
 
 
@@ -53,14 +53,14 @@ header img {
 
 nav li a {
     text-decoration: none;
-    color: var(--accent2-color);
-    padding: 0.5rem 1rem;
+    color: var(#091017);
+    padding: 0,5rem 1rem;
 }
 
 nav li a:hover,
 nav li a.active {
-    background-color: var(--accent1-color);
-    color: white;
+    background-color: var(#091017);
+    color: rgb(19, 13, 13);
     border-radius: 4px;
 }
 
@@ -70,7 +70,7 @@ nav li a.active {
 
 .hero img {
     display: block;
-    width: 100%;
+    width: 200%;
     height: auto;
 }
 
@@ -90,7 +90,7 @@ nav li a.active {
     bottom: 20px;
     left: 20px;
     max-width: 400px;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(116, 107, 171, 0.9);
     border-radius: 8px;
 }
 
@@ -105,7 +105,7 @@ nav li a.active {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
-    background-color: #83a7e2;
+    background-color: #030d1c;
     padding: 2rem;
     border-radius: 8px;   
 }  
@@ -121,7 +121,7 @@ nav li a.active {
     flex-wrap: wrap;
     gap: 1rem;
     padding: 2rem;
-    background-color: #2c3e50;
+    background-color: #091017;
 }
 
 .adventures figure {
@@ -138,7 +138,7 @@ nav li a.active {
 .adventures figcaption {
     margin: 0.5rem;
     font-weight: bold;
-    color:#2c3e50;
+    color:#080d13;
 }
 
 footer{
@@ -146,8 +146,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    background-color: var(#091017);
+    color: var(#071421);
     margin-top: 2rem;
 }
 
