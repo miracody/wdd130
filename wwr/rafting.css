@@ -125,7 +125,7 @@ nav li a.active {
 .history img {
     width: 100%;
     border-radius: 8px;
-    box-shadow: #030d1c;
+    box-shadow:none;
 }  
 
 .adventures{
@@ -212,7 +212,7 @@ footer{
 .employees img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: #030d1c;
+  box-shadow:none;
 }
 
 .contact-form {
