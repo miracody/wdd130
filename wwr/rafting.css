@@ -73,7 +73,6 @@ nav li a {
     padding: 0;
 }
 
-nav li a:hover,
 nav li a.active {
     background-color: #091017;
     color: #06335f;
@@ -132,7 +131,7 @@ nav li a.active {
 }  
 
 .adventures{
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
@@ -141,7 +140,7 @@ nav li a.active {
 }
 
 .adventures figure {
-    width: 150px;
+    width: 200px;
     text-align: center;
 }
 
