@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: var(--body-font);
+    font-family: open sans-serif;
     color: #071421;
     background-color: #ccc;
 }
@@ -26,7 +26,7 @@ header, main, footer {
 }
 
 h1, h2, h3 {
-    font-family: 'open sans',sans-serif;
+    font-family: 'open sans-sarif';
     font-weight: 1000;
     color: #071421;
     margin-bottom: 0.5rem;
@@ -38,16 +38,17 @@ nav, p, section, article {
 }
 
 header {
-    display: flexbox;
-    grid-template-columns: 1fr 1fr ;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     align-items: center;
-    padding: 2rem;
+    gap: 2rem;
+    padding: 1rem;
     background-color: var(--primary-color);
     color: #091017;
 }
 
 header img {
-    width: 110px;
+    width: 120px;
     height: auto;
 }
 
