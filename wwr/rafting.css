@@ -25,8 +25,9 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
-    font-family: var(--heading-font);
+h1, h2, h3 {
+    font-family: 'Robot',sans-serif;
+    font-weight: 600;
     color: #071421;
     margin-bottom: 0.5rem;
 }
