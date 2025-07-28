@@ -55,7 +55,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  margin: 0;
+  margin: 5;
   padding: 0;
 }
 
