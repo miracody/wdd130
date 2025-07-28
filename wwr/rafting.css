@@ -38,10 +38,10 @@ nav, p, section, article {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flexbox;
+    grid-template-columns: 1fr 1fr ;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
     background-color: var(--primary-color);
     color: #091017;
 }
@@ -55,7 +55,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  margin: 5;
+  margin: 0;
   padding: 0;
 }
 
