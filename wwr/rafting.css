@@ -38,7 +38,7 @@ nav, p, section, article {
 
 header {
     display: grid;
-    grid-template-columns: 120px 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 1rem;
     background-color: var(--primary-color);
@@ -118,7 +118,7 @@ nav li a.active {
 .adventures{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
     gap: 1rem;
     padding: 2rem;
     background-color: #091017;
