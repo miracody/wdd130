@@ -149,6 +149,8 @@ footer{
     background-color: #b6aeea;
     color: #071421;
     margin-top: 2rem;
+    color: #0066cc;
+    text-decoration: underline;
 }
 
 .socialmedia {
@@ -166,12 +168,10 @@ footer{
     height: auto;
 }
 
-/* ─── Reusable Utility Class ─── */
 .container-padding {
   padding: 2rem;
 }
 
-/* ─── Contact Info Section ─── */
 .contact-info {
   background-color: var(--accent2-color);
   line-height: 1.6;
@@ -185,7 +185,6 @@ footer{
   margin-top: 1rem;
 }
 
-/* ─── Employee Profiles ─── */
 .employees {
   display: flex;
   flex-wrap: wrap;
@@ -203,7 +202,6 @@ footer{
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 }
 
-/* ─── Contact Form ─── */
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
@@ -246,11 +244,6 @@ footer{
   background-color: #004b99;
 }
 
-/* ─── Wireframe Link in Footer ─── */
-footer a {
-  color: #0066cc;
-  text-decoration: underline;
-}
 footer a:hover {
   color: #003d80;
 }
