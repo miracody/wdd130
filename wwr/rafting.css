@@ -27,7 +27,7 @@ header, main, footer {
 
 h1, h2, h3 {
     font-family: 'open sans-sarif';
-    font-weight: 1200;
+    font-weight: 1000;
     color: #071421;
     margin-bottom: 0.5rem;
 }
@@ -38,10 +38,9 @@ nav, p, section, article {
 }
 
 header {
-    display: 0;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 1rem;
     padding: 1rem;
     background-color: var(--primary-color);
     color: #091017;
@@ -64,7 +63,6 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
   color: #000;
-
 }
 
 nav li a {
@@ -127,7 +125,7 @@ nav li a.active {
 .history img {
     width: 100%;
     border-radius: 8px;
-    box-shadow: #003366;
+    box-shadow: #0033;
 }  
 
 .adventures{
@@ -140,7 +138,7 @@ nav li a.active {
 }
 
 .adventures figure {
-    width: 200px;
+    width: 150px;
     text-align: center;
 }
 
@@ -214,7 +212,7 @@ footer{
 .employees img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: #ffff;
+  box-shadow: #000;
 }
 
 .contact-form {
