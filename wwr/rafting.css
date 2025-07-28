@@ -4,7 +4,7 @@
     --accent1-color: #49d;
     --accent2-color:#49d1f3;
 
-    --heading-font: "Open Sans", sans-serif;
+    --heading-font: "Open Sans", sans-sarif;
     --body-font: "josefin", sans-serif
 }
 
@@ -27,7 +27,7 @@ header, main, footer {
 
 h1, h2, h3 {
     font-family: 'open sans-sarif';
-    font-weight: 1000;
+    font-weight: 1200;
     color: #071421;
     margin-bottom: 0.5rem;
 }
@@ -38,10 +38,10 @@ nav, p, section, article {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: 0;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem;
     background-color: var(--primary-color);
     color: #091017;
