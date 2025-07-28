@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #e4ebf6;
+    --primary-color: #ffffff;
     --secondary-color: #eeeeee;
-    --accent1-color: hsl(188, 29%, 90%);
-    --accent2-color:#e8f0f2;
+    --accent1-color: #49d;
+    --accent2-color:#49d1f3;
 
     --heading-font: "Open Sans", sans-serif;
     --body-font: "josefin", sans-serif
@@ -17,7 +17,7 @@
 body {
     font-family: var(--body-font);
     color: #071421;
-    background-color: lab(89.37% -0.19 -4.49);
+    background-color: #ccc;
 }
 
 header, main, footer {
@@ -60,7 +60,7 @@ nav li a {
 nav li a:hover,
 nav li a.active {
     background-color: #091017;
-    color: rgb(19, 13, 13);
+    color: #06335f;
     border-radius: 4px;
 }
 
@@ -81,7 +81,7 @@ nav li a.active {
     padding: 1rem;
     text-align: center;
     background-color: var(--accent1-color);
-    color: rgb(30, 13, 13);
+    color: #091017;
     opacity: 0.85;
 }
 
@@ -90,7 +90,7 @@ nav li a.active {
     bottom: 20px;
     left: 20px;
     max-width: 400px;
-    background-color: #b6aeea;
+    background-color: #49d;
     border-radius: 8px;
 }
 
@@ -112,7 +112,7 @@ nav li a.active {
 .history img {
     width: 100%;
     border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: #003366;
 }  
 
 .adventures{
@@ -146,10 +146,10 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #b6aeea;
-    color: #071421;
+    background-color: #49d;
+    color: #000;
     margin-top: 2rem;
-    color: #0066cc;
+    color: #091017;
     text-decoration: underline;
 }
 
@@ -199,7 +199,7 @@ footer{
 .employees img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: #ffff;
 }
 
 .contact-form {
