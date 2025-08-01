@@ -46,17 +46,17 @@ nav a {
 
 
 .hero {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #e0f2ff;
+  
 }
 
 .hero img {
-  display: block;
   width: 100%;
-  height: auto;
+  max-height: 400px;
   object-fit: cover;
+  border-radius: 8px;
 
 }
 
@@ -87,8 +87,7 @@ nav a {
   border-radius: 10px;
 }
 
-
-.rafting {
+.adventure-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
