@@ -82,181 +82,114 @@ nav li a.active {
 }
 
 .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-    background-color: var(--accent1-color);
-    color: #091017;
-    opacity: 0.85;
-}
-
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    max-width: 400px;
-    background-color: #49d;
-    border-radius: 8px;
-}
-
-.hero article img {
-    float: right;
-    width: 130px;
-    margin-left: 1rem;
-    border-radius: 50%;
-}
-
-.history {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 1rem;
-    background-color: #030d1c;
-    padding: 2rem;
-    border-radius: 8px;   
-}  
-.history img {
-    width: 100%;
-    border-radius: 8px;
-    box-shadow:none;
-}  
-
-.adventures{
-    display: grid;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem;
-    background-color: #091017;
-}
-
-.adventures figure {
-    width: 150px;
-    text-align: center;
-}
-
-.adventures img{
-    width: 100%;
-    height: auto;
-    border-radius:6px;
-}
-
-.adventures figcaption {
-    margin: 0.5rem;
-    font-weight: bold;
-    color:#080d13;
-}
-
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #49d;
-    color: #030d1c;
-    margin-top: 2rem;
-    color: #091017;
-    text-decoration: underline;
-}
-
-.socialmedia {
-    display: flex;
-    gap: 1rem;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia img {
-
-    width: 32px;
-    height: auto;
-}
-
-.container-padding {
-  padding: 2rem;
-}
-
-.contact-info {
-  background-color: var(--accent2-color);
-  line-height: 1.6;
-  border-bottom: 1px solid #ccc;
-}
-.contact-info iframe {
   width: 100%;
-  height: 300px;
-  border: none;
-  border-radius: 6px;
-  margin-top: 1rem;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 30px;
 }
 
-.employees {
+.team {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
-  gap: 2rem;
-  background-color: var(--primary-color);
-}
-.employees figure {
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px 0;
   text-align: center;
-  max-width: 180px;
 }
-.employees img {
-  width: 100%;
+
+.team img {
+  width: 240px;
+  height: auto;
   border-radius: 10px;
-  box-shadow:none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+.gallery {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.gallery h2 {
+  color: var(--accent-color);
+  margin-bottom: 15px;
+}
+
+.gallery img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
 
 .contact-form {
+  background-color: var(--background-color);
+  padding: 30px;
+  border-radius: 10px;
   max-width: 600px;
-  margin: 0 auto;
-  background-color: var(--accent1-color);
-  border-radius: 8px;
-  padding: 2rem 1rem;
+  margin: 40px auto;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
 }
-.contact-form h2 {
-  margin-bottom: 1rem;
-}
+
 .contact-form label {
   display: block;
+  margin-bottom: 5px;
+  color: var(--text-color);
   font-weight: bold;
-  margin-top: 1rem;
 }
+
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
   width: 100%;
-  padding: 0.5rem;
-  margin-top: 0.3rem;
-  border: 1px solid #aaa;
-  border-radius: 5px;
-}
-.contact-form input[type="radio"],
-.contact-form input[type="checkbox"] {
-  margin-right: 0.5rem;
-}
-.contact-form button {
-  margin-top: 1rem;
-  background-color: #0066cc;
-  color: white;
-  padding: 0.6rem 1.4rem;
-  border: none;
-  border-radius: 4px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-.contact-form button:hover {
-  background-color: #004b99;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-family: inherit;
 }
 
-footer a:hover {
-  color: #003d80;
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.contact-form button {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #004d4d;
+}
+
+.location {
+  margin: 50px auto;
+  max-width: 800px;
+  display: grid;
+  gap: 20px;
+}
+
+.location img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.location iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+  border-radius: 6px;
+}
+
+footer a.wireframe-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  text-decoration: underline;
 }
