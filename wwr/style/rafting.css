@@ -1,7 +1,7 @@
 :root {
   --primary-color: #0b0b6f;
-  --secondary-color: #ededed;
-  --accent1-color: #D46600;
+  --secondary-color: #d46600;
+  --accent1-color: #ffffffd9;
   --accent2-color: #1E7A72;
   --heading-font: 'Montserrat', sans-serif;
   --body-font: 'open sans', sans-serif;
@@ -217,7 +217,7 @@ nav a:hover::after {
 .adventure-gallery figcaption {
   margin-top: 8px;
   font-size: 14px;
-  color: #333;
+  color: #0000;
 }
 
 
