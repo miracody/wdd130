@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #0b0b6f;
+  --primary-color: #0606eb;
   --secondary-color: #d46600;
-  --accent1-color: #ffffffd9;
-  --accent2-color: #1E7A72;
+  --accent1-color: #ffffff;
+  --accent2-color: #000000;
   --heading-font: 'Montserrat', sans-serif;
   --body-font: 'open sans', sans-serif;
 }
@@ -114,7 +114,7 @@ nav a:hover::after {
   padding: 16px;
   text-align: center;
   background-color: var(--accent1-color);
-  color: #ffffff;
+  color: #d46600;
   font-size: 40px;
   opacity: 0.9;
   z-index: 2;
@@ -124,7 +124,7 @@ nav a:hover::after {
   position: absolute;
   bottom: 100px;
   left: 20px;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: #ffffffd9;
   padding: 16px;
   max-width: 800px;
   z-index: 1;
