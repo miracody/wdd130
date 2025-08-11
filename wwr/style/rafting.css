@@ -4,7 +4,7 @@
   --accent1-color: #ffa500;
   --accent2-color: #e6e6fa;
   --heading-font: 'Montserrat', sans-serif;
-  --body-font: 'open sans', sans-serif;
+  --body-font: 'robot', sans-serif;
 }
 
 * {
@@ -15,7 +15,7 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--accent2-color);
+  color: #000000;
 }
 
 header, main, footer {
@@ -39,7 +39,7 @@ header {
   grid-template-columns: auto 1fr auto;
   align-items: center;
   background-color: var(--accent1-color);
-  color: #000000;
+  color: #ffffff;
   padding: 16px;
 }
 
@@ -114,7 +114,7 @@ nav a:hover::after {
   padding: 16px;
   text-align: center;
   background-color: var(--primary-color);
-  color: #d46600;
+  color: #ffffff;
   font-size: 40px;
   opacity: 0.9;
   z-index: 2;
