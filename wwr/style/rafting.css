@@ -23,10 +23,15 @@ header, main, footer {
   margin: 0 auto;
 }
 
-h1, h2 {
+h1 {
   font-family: var(--heading-font);
   color: #ffffff;
 }
+
+h2 {
+  font-family: var(--heading-font);
+  color: #000000;
+}  
 
 nav, p, section, article {
   margin: 16px;
@@ -38,8 +43,8 @@ header {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  background-color: var(--accent1-color);
-  color: #000000;
+  background-color: var(--primary-color);
+  color: #ffffff;
   padding: 16px;
 }
 
@@ -241,4 +246,25 @@ footer nav.socialmedia {
 footer nav.socialmedia img {
   width: 30px;
   height: auto;
+}
+
+
+footer a[href="about.html"] {
+  color: #ffffff;
+}
+
+footer a[href="contact.html"] {
+  color: #ffffff;
+}
+
+footer a[href="trips.html"] {
+  color: #ffffff;
+}
+
+footer a[href="index.html"] {
+  color: #ffffff;
+}
+
+footer .follow-us {
+  color: #ffffff;
 }
