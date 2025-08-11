@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #0606eb;
-  --secondary-color: #d46600;
-  --accent1-color: #ffffff;
-  --accent2-color: #000000;
+  --primary-color: #004225;
+  --secondary-color: #007b8a;
+  --accent1-color: #ffa500;
+  --accent2-color: #e6e6fa;
   --heading-font: 'Montserrat', sans-serif;
   --body-font: 'open sans', sans-serif;
 }
@@ -15,7 +15,7 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--accent1-color);
+  color: var(--accent2-color);
 }
 
 header, main, footer {
@@ -25,7 +25,7 @@ header, main, footer {
 
 h1, h2 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  color: #000000;
 }
 
 nav, p, section, article {
@@ -38,8 +38,8 @@ header {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  background-color: var(--primary-color);
-  color: var(--accent2-color);
+  background-color: var(--accent1-color);
+  color: #000000;
   padding: 16px;
 }
 
@@ -76,14 +76,14 @@ nav a::after {
   bottom: -2px;
   width: 100%;
   height: 2px;
-  background-color: var(--accent1-color);
+  background-color: var(--primary-color);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
 }
 
 nav a:hover {
-  color: var(--accent1-color);
+  color: var(--primary-color);
 }
 
 nav a:hover::after {
@@ -113,7 +113,7 @@ nav a:hover::after {
   width: 100%;
   padding: 16px;
   text-align: center;
-  background-color: var(--accent1-color);
+  background-color: var(--primary-color);
   color: #d46600;
   font-size: 40px;
   opacity: 0.9;
@@ -124,11 +124,11 @@ nav a:hover::after {
   position: absolute;
   bottom: 100px;
   left: 20px;
-  background-color: #ffffffd9;
+  background-color: #ffffff;
   padding: 16px;
   max-width: 800px;
   z-index: 1;
-  color: var(--accent2-color);
+  color: #000000;
 }
 
 .hero article img {
@@ -157,7 +157,7 @@ nav a:hover::after {
 .history-title {
   grid-column: 1 / 4; /* spans all three columns */
   font-size: 32px;
-  color: var(--primary-color);
+  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -165,7 +165,7 @@ nav a:hover::after {
   grid-column: 2;
   width: 250px;
   border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  box-shadow: 0 0 8px #000000;
 }
 
 .left {
@@ -180,7 +180,9 @@ nav a:hover::after {
   font-size: 16px;
 }
 
-
+.legacy-text {
+  color: #000000;
+}
 
 /* Adventures Section */
 .adventures {
@@ -190,7 +192,7 @@ nav a:hover::after {
 
 .adventure-title {
   font-size: 28px;
-  color: var(--primary-color);
+  color: #000000;
   margin-bottom: 20px;
 }
 
@@ -228,6 +230,7 @@ footer {
   align-items: center;
   padding: 16px;
   background-color: var(--primary-color);
+  color: var(--accent2-color);
 }
 
 footer nav.socialmedia {
