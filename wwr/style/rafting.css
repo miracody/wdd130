@@ -299,7 +299,7 @@ nav a:hover::after {
 }
 
 .trip-image {
-  width: 100%;
+  width: 80%;
   border-radius: 6px;
   margin-bottom: 1rem;
 }
