@@ -268,32 +268,93 @@ nav a:hover::after {
 .newsletter button:hover {
   background-color: #006837;
 }
-
-.grid-layout {
+/* Trips Page Layout */
+.trips {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  padding: 1rem;
-}
-.grid-layout img {
-  width: 100%;
-  border-radius: 8px;
-}
-.grid-layout p {
-  margin-top: 0.5rem;
-  font-size: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
 }
 
+/* Trip Cards */
+.trip-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.trip-image {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.trip-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.trip-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Trip Summary Table */
 table {
+  grid-column: 1 / -1;
   width: 100%;
   border-collapse: collapse;
-  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
+
+caption {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  text-align: left;
+  padding-left: 1rem;
+}
+
 th, td {
-  border: 1px solid #ffffff;
+  border: 1px solid #ddd;
   padding: 0.75rem;
   text-align: left;
 }
+
+th {
+  background-color: #f0f0f0;
+}
+
+/* Call to Action Button */
+.trips .cta-button {
+  grid-column: 1 / -1;
+  justify-self: center;
+  padding: 0.75rem 1.5rem;
+  background-color: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  display: inline-block;
+}
+
+.trips .cta-button:hover {
+  background-color: #005fa3;
+}
+
+
 caption {
   font-weight: bold;
   margin-bottom: 0.5rem;
