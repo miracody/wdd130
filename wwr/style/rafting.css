@@ -267,17 +267,26 @@ nav a:hover::after {
 
 .newsletter button:hover {
   background-color: #006837;
-  
+
 }
-/* Trips Page Layout */
+/* Trips Section Layout */
 .trips {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
   background-color: #f9f9f9;
+}
+
+/* Section Heading */
+.trips h2 {
+  grid-column: 1 / -1;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #0077cc;
 }
 
 /* Trip Cards */
@@ -298,12 +307,12 @@ nav a:hover::after {
 .trip-card h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: #000000;
 }
 
 .trip-card p {
   font-size: 1rem;
-  color: #555;
+  color: #000000;
 }
 
 /* Trip Summary Table */
@@ -315,6 +324,7 @@ table {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-top: 1rem;
 }
 
 caption {
@@ -336,12 +346,12 @@ th {
 }
 
 /* Call to Action Button */
-.trips .cta-button {
+.cta-button {
   grid-column: 1 / -1;
   justify-self: center;
   padding: 0.75rem 1.5rem;
   background-color: #0077cc;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
@@ -351,7 +361,7 @@ th {
   display: inline-block;
 }
 
-.trips .cta-button:hover {
+.cta-button:hover {
   background-color: #005fa3;
 }
 
@@ -394,7 +404,7 @@ caption {
 
 .grid-item p {
   font-size: 1rem;
-  color: #333;
+  color: #000000;
   line-height: 1.6;
 }
 
