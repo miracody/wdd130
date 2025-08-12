@@ -250,14 +250,14 @@ nav a:hover::after {
 .newsletter input {
   padding: 0.5rem;
   width: 80%;
-  max-width: 400px;
+  max-width: 200px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 .newsletter button {
   background-color: #004225;
-  color: #fff;
+  color: #ffffff;
   padding: 0.6rem 1.2rem;
   border: none;
   border-radius: 4px;
@@ -284,6 +284,57 @@ nav a:hover::after {
   font-size: 1rem;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+th, td {
+  border: 1px solid #ffffff;
+  padding: 0.75rem;
+  text-align: left;
+}
+caption {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+.company-overview {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.company-overview h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #003366;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.grid-item h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #0055a5;
+}
+
+.grid-item p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
 
 
 /* Footer */
